@@ -1,13 +1,10 @@
-package Random;
-
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoField;
 
-public class RandomNumberGenerator {
+class RandomNumberGenerator {
     public static void main(String[] args) {
         RandomNumberGenerator rng = new RandomNumberGenerator();
         System.out.println(rng.randomNumber());
-        System.out.println();
         System.out.println(rng.randomNumber(1, 2));
     }
 
